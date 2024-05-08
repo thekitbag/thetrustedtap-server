@@ -65,3 +65,5 @@ def ping(req: func.HttpRequest) -> func.HttpResponse:
 
     else: 
         return func.HttpResponse("HTTP trigger function processed a request, but the method is not allowed.", status_code=405) 
+
+#random comment
